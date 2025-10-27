@@ -103,8 +103,7 @@ Microservices communicate internally in two main ways:
     - Uses **Kafka**, **RabbitMQ**, or **Google Pub/Sub**.
     - **No load balancer** needed — the broker manages distribution.
     
-    b.  Queue Model
-    
+    2.  Queue Model
     - Tasks are pushed into a queue.
     - One service picks up a task and processes it, then removes it.
     - Ensures each task is processed exactly once.
